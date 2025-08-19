@@ -56,3 +56,8 @@ TWAP (Advanced)
 To BUY a total of 0.5 ETHUSDT over 5 minutes, placing one small order every 30 seconds:
 
 python src/advanced/twap.py ETHUSDT BUY 0.5 5 30
+
+### Smart Sentiment Trader (Bonus)
+To automatically place a **BUY** order if sentiment is "Extreme Fear" or a **SELL** order if "Extreme Greed" for **0.001 BTCUSDT**:
+```bash
+python src/advanced/sentiment_trader.py BTCUSDT 0.001
